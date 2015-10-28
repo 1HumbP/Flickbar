@@ -1,0 +1,1610 @@
+LWSC
+5
+
+RenderRangeType 0
+FirstFrame 1
+LastFrame 120
+FrameStep 1
+RenderRangeObject 0
+RenderRangeArbitrary 1-120
+PreviewFirstFrame 0
+PreviewLastFrame 120
+PreviewFrameStep 1
+CurrentFrame 0
+FramesPerSecond 30
+ChangeScene 0
+Plugin MasterHandler 1 .SceneEditorStandardBanks
+EndPlugin
+Plugin MasterHandler 2 SceneEditor
+VERS 2
+{ CurrentWorkspace
+  Name "<default>"
+  Divider1 0.5
+  LayoutItemFilterEnabled 0
+  LayoutItemChannelFilterEnabled 0
+  SurfaceFilterEnabled 0
+  SurfaceChannelFilterEnabled 0
+  ChannelFilterEnabled 0
+  { Bank
+    PresetID 5f434856
+    Column 5f434856 0 90
+    Column 5f434856 1 90
+    Column 5f434856 2 100
+    Column 5f434856 3 90
+    Column 5f434856 4 95
+  }
+  { SurfaceListBank
+    PresetID 5f434856
+    Column 5f434856 0 90
+    Column 5f434856 1 90
+    Column 5f434856 2 100
+    Column 5f434856 3 90
+    Column 5f434856 4 95
+  }
+  { ChannelListBank
+    PresetID 5f434856
+    Column 5f434856 0 90
+    Column 5f434856 1 90
+    Column 5f434856 2 100
+    Column 5f434856 3 90
+    Column 5f434856 4 95
+  }
+  BackgroundColorOdd 78 78 78 ff
+  BackgroundColorEven 6f 6f 6f ff
+  HierarchyIndent c
+  HighlightColor b5 b0 a5 ff
+  DefaultObjectColor 60 e0 f0 ff
+  DefaultBoneColor 60 e0 f0 ff
+  DefaultLightColor f0 60 f0 ff
+  DefaultCameraColor 20 a0 f0 ff
+  AutoApplyToViewPorts 1
+  MultiselectSimilarTypes 1
+  LimitColorRange 1
+  ColorsAsHSV 0
+  ShowSelectionOrder 1
+  EnvelopeButtonOpensGraphEditor 1
+  ShowRenderExtents 1
+  BlockPeriod 0.033333335
+  BlockWidthMin 3
+  BlockWidthMax c8
+  ShowKeyTicks 1
+  OverrideBlockColors 0
+  BlockKeyColor 99 ae cf ff
+  BlockGroupColor 64 85 b6 ff
+  DSAllowChannelGroupSelection 1
+  LayoutItemListSortMode 6
+  SurfaceListSortMode 0
+  ChannelListSortMode 0
+}
+EndPlugin
+Plugin ViewportObjectHandler 1 .VPR
+0
+20
+1
+1
+0
+1
+0
+EndPlugin
+Plugin ViewportObjectHandler 2 .VPR
+0
+20
+1
+1
+0
+1
+0
+EndPlugin
+Plugin ViewportObjectHandler 3 .VPR
+0
+20
+1
+1
+0
+1
+0
+EndPlugin
+Plugin ViewportObjectHandler 4 .VPR
+0
+20
+1
+1
+0
+1
+0
+EndPlugin
+ColorSpaceViewer "Linear" "none"
+ColorSpaceSurfaceColor "Linear" "none"
+ColorSpaceLightColor "Linear" "none"
+ColorSpacePaletteFiles "Linear" "none"
+ColorSpace8BitFiles "Linear" "none"
+ColorSpaceFloatFiles "Linear" "none"
+ColorSpaceAlpha "Linear" "none"
+ColorSpaceOutput "Linear" "none"
+ColorSpaceOutputAlpha "Linear" "none"
+ColorSpaceAutoSense 0
+ColorSpace8BitToFloat 0
+ColorSpaceCorrectOpenGL 0
+ColorSpaceAffectPicker 0
+FirstBackgroundImageSyncFrame 0
+NavigationDesiredDevice (any)
+
+LoadObjectLayer 1 10000000 Objects/Level00_Stadium.lwo
+ChangeObject 0
+ShowObject 7 -1 0.376471 0.878431 0.941176
+Group 0
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+IKInitCustomFrame 0
+GoalStrength 1
+IKFKBlending 0
+IKSoftMin 0.25
+IKSoftMax 0.75
+CtrlPosItemBlend 1
+CtrlRotItemBlend 1
+CtrlScaleItemBlend 1
+
+PathAlignLookAhead 0.033
+PathAlignMaxLookSteps 10
+PathAlignReliableDist 0.001
+PivotPosition 0 0 0
+PivotRotation 0 0 0
+SplineFlags 0
+SplineFit 0
+IKInitialState 0
+UseIKChainValues 1
+SubPatchLevel 3 3
+APSDisplay
+{ APS
+  Version 1
+  Method 0
+  { VParm
+    { ObjectLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonPixelSize
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          256
+          0
+        }
+      }
+    }
+  }
+}
+APSRender
+{ APS
+  Version 1
+  Method 0
+  { VParm
+    { ObjectLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonPixelSize
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          256
+          0
+        }
+      }
+    }
+  }
+}
+NodeDisplacement 0
+{ Nodal_Block
+  { Root
+    Location 0 0
+    Zoom 1
+    Disabled 1
+  }
+  Version 1
+  { Nodes
+    Server "Displacement"
+    { Tag
+      RealName "Displacement"
+      Name "Displacement"
+      Coordinates -10 -10
+      Mode 1
+      { Data
+      }
+      Preview ""
+      Comment ""
+    }
+    Server "Input"
+    { Tag
+      RealName "Input"
+      Name "Input"
+      Coordinates -30 -10
+      Mode 1
+      { Data
+      }
+      Preview "Object Position"
+      Comment ""
+    }
+  }
+  { Connections
+  }
+}
+NodeDisplacementOrder 0
+UseObjGI 0
+ObjGIRadiosityRays 64
+ObjGISecondaryBounceRays 16
+ObjGIRadiosityTolerance 0.292893
+ObjGIMinPixelSpacing 4.000000
+ObjGIMaxPixelSpacing 100.000000
+ShadowOptions 7
+PolygonEdgeFlags 0
+PolygonEdgeThickness 1 1 1 1 1 1 1
+PolygonEdgeColor 0 0 0
+PolygonEdgesZScale 1
+PolygonEdgesIAngle 0.3490658
+NodeEdges 0
+{ NodalEdge_Block
+  { Root
+    Location 0 0
+    Zoom 1
+    Disabled 1
+  }
+  Version 1
+  { Nodes
+    Server "Edge"
+    { Tag
+      RealName "Edge"
+      Name "Edge"
+      Coordinates -10 -10
+      Mode 1
+      { Data
+      }
+      Preview ""
+      Comment ""
+    }
+  }
+  { Connections
+  }
+}
+
+LoadObjectLayer 1 10000002 Objects/Level00_Crowd.lwo
+ChangeObject 0
+ShowObject 7 -1 0.376471 0.878431 0.941177
+Group 0
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+IKInitCustomFrame 0
+GoalStrength 1
+IKFKBlending 0
+IKSoftMin 0.25
+IKSoftMax 0.75
+CtrlPosItemBlend 1
+CtrlRotItemBlend 1
+CtrlScaleItemBlend 1
+
+PathAlignLookAhead 0.033
+PathAlignMaxLookSteps 10
+PathAlignReliableDist 0.001
+PivotPosition 0 0 0
+PivotRotation 0 0 0
+SplineFlags 0
+SplineFit 0
+IKInitialState 0
+UseIKChainValues 1
+SubPatchLevel 3 3
+APSDisplay
+{ APS
+  Version 1
+  Method 0
+  { VParm
+    { ObjectLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonPixelSize
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          256
+          0
+        }
+      }
+    }
+  }
+}
+APSRender
+{ APS
+  Version 1
+  Method 0
+  { VParm
+    { ObjectLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonPixelSize
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          256
+          0
+        }
+      }
+    }
+  }
+}
+NodeDisplacement 0
+{ Nodal_Block
+  { Root
+    Location 0 0
+    Zoom 1
+    Disabled 1
+  }
+  Version 1
+  { Nodes
+    Server "Displacement"
+    { Tag
+      RealName "Displacement"
+      Name "Displacement"
+      Coordinates -10 -10
+      Mode 1
+      { Data
+      }
+      Preview ""
+      Comment ""
+    }
+    Server "Input"
+    { Tag
+      RealName "Input"
+      Name "Input"
+      Coordinates -30 -10
+      Mode 1
+      { Data
+      }
+      Preview "Object Position"
+      Comment ""
+    }
+  }
+  { Connections
+  }
+}
+NodeDisplacementOrder 0
+UseObjGI 0
+ObjGIRadiosityRays 64
+ObjGISecondaryBounceRays 16
+ObjGIRadiosityTolerance 0.292893
+ObjGIMinPixelSpacing 4.000000
+ObjGIMaxPixelSpacing 100.000000
+ShadowOptions 7
+PolygonEdgeFlags 0
+PolygonEdgeThickness 1 1 1 1 1 1 1
+PolygonEdgeColor 0 0 0
+PolygonEdgesZScale 1
+PolygonEdgesIAngle 0.3490658
+NodeEdges 0
+{ NodalEdge_Block
+  { Root
+    Location 0 0
+    Zoom 1
+    Disabled 1
+  }
+  Version 1
+  { Nodes
+    Server "Edge"
+    { Tag
+      RealName "Edge"
+      Name "Edge"
+      Coordinates -10 -10
+      Mode 1
+      { Data
+      }
+      Preview ""
+      Comment ""
+    }
+  }
+  { Connections
+  }
+}
+
+LoadObjectLayer 1 10000003 Objects/Level00_Goals.lwo
+ChangeObject 0
+ShowObject 7 -1 0.376471 0.878431 0.941177
+Group 0
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key -0.042140666395425803 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 34.31201171875 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+IKInitCustomFrame 0
+GoalStrength 1
+IKFKBlending 0
+IKSoftMin 0.25
+IKSoftMax 0.75
+CtrlPosItemBlend 1
+CtrlRotItemBlend 1
+CtrlScaleItemBlend 1
+
+PathAlignLookAhead 0.033
+PathAlignMaxLookSteps 10
+PathAlignReliableDist 0.001
+PivotPosition 0 0 0
+PivotRotation 0 0 0
+SplineFlags 0
+SplineFit 0
+IKInitialState 0
+UseIKChainValues 1
+SubPatchLevel 3 3
+APSDisplay
+{ APS
+  Version 1
+  Method 0
+  { VParm
+    { ObjectLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonPixelSize
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          256
+          0
+        }
+      }
+    }
+  }
+}
+APSRender
+{ APS
+  Version 1
+  Method 0
+  { VParm
+    { ObjectLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonPixelSize
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          256
+          0
+        }
+      }
+    }
+  }
+}
+NodeDisplacement 0
+{ Nodal_Block
+  { Root
+    Location 0 0
+    Zoom 1
+    Disabled 1
+  }
+  Version 1
+  { Nodes
+    Server "Displacement"
+    { Tag
+      RealName "Displacement"
+      Name "Displacement"
+      Coordinates -10 -10
+      Mode 1
+      { Data
+      }
+      Preview ""
+      Comment ""
+    }
+    Server "Input"
+    { Tag
+      RealName "Input"
+      Name "Input"
+      Coordinates -30 -10
+      Mode 1
+      { Data
+      }
+      Preview "Object Position"
+      Comment ""
+    }
+  }
+  { Connections
+  }
+}
+NodeDisplacementOrder 0
+UseObjGI 0
+ObjGIRadiosityRays 64
+ObjGISecondaryBounceRays 16
+ObjGIRadiosityTolerance 0.292893
+ObjGIMinPixelSpacing 4.000000
+ObjGIMaxPixelSpacing 100.000000
+ShadowOptions 7
+PolygonEdgeFlags 0
+PolygonEdgeThickness 1 1 1 1 1 1 1
+PolygonEdgeColor 0 0 0
+PolygonEdgesZScale 1
+PolygonEdgesIAngle 0.3490658
+NodeEdges 0
+{ NodalEdge_Block
+  { Root
+    Location 0 0
+    Zoom 1
+    Disabled 1
+  }
+  Version 1
+  { Nodes
+    Server "Edge"
+    { Tag
+      RealName "Edge"
+      Name "Edge"
+      Coordinates -10 -10
+      Mode 1
+      { Data
+      }
+      Preview ""
+      Comment ""
+    }
+  }
+  { Connections
+  }
+}
+
+LoadObjectLayer 1 10000001 M:Projects/CrossBar_Challenge/Concept_Art/Crossbar_Assets/Objects/Level00_ScoreScreen.lwo
+ChangeObject 0
+ShowObject 7 7
+Group 0
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 8.284611701965332 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 49.611507415771484 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+IKInitCustomFrame 0
+GoalStrength 1
+IKFKBlending 0
+IKSoftMin 0.25
+IKSoftMax 0.75
+CtrlPosItemBlend 1
+CtrlRotItemBlend 1
+CtrlScaleItemBlend 1
+
+PathAlignLookAhead 0.033
+PathAlignMaxLookSteps 10
+PathAlignReliableDist 0.001
+PivotPosition 0 0 0
+PivotRotation 0 0 0
+SplineFlags 0
+SplineFit 0
+IKInitialState 0
+UseIKChainValues 1
+SubPatchLevel 3 3
+APSDisplay
+{ APS
+  Version 1
+  Method 0
+  { VParm
+    { ObjectLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonPixelSize
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          256
+          0
+        }
+      }
+    }
+  }
+}
+APSRender
+{ APS
+  Version 1
+  Method 0
+  { VParm
+    { ObjectLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonPixelSize
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          256
+          0
+        }
+      }
+    }
+  }
+}
+NodeDisplacement 0
+{ Nodal_Block
+  { Root
+    Location 0 0
+    Zoom 1
+    Disabled 1
+  }
+  Version 1
+  { Nodes
+    Server "Displacement"
+    { Tag
+      RealName "Displacement"
+      Name "Displacement"
+      Coordinates -10 -10
+      Mode 1
+      { Data
+      }
+      Preview ""
+      Comment ""
+    }
+    Server "Input"
+    { Tag
+      RealName "Input"
+      Name "Input"
+      Coordinates -30 -10
+      Mode 1
+      { Data
+      }
+      Preview "Object Position"
+      Comment ""
+    }
+  }
+  { Connections
+  }
+}
+NodeDisplacementOrder 0
+UseObjGI 0
+ObjGIRadiosityRays 64
+ObjGISecondaryBounceRays 16
+ObjGIRadiosityTolerance 0.292893
+ObjGIMinPixelSpacing 4.000000
+ObjGIMaxPixelSpacing 100.000000
+ShadowOptions 7
+PolygonEdgeFlags 0
+PolygonEdgeThickness 1 1 1 1 1 1 1
+PolygonEdgeColor 0 0 0
+PolygonEdgesZScale 1
+PolygonEdgesIAngle 0.3490658
+NodeEdges 0
+{ NodalEdge_Block
+  { Root
+    Location 0 0
+    Zoom 1
+    Disabled 1
+  }
+  Version 1
+  { Nodes
+    Server "Edge"
+    { Tag
+      RealName "Edge"
+      Name "Edge"
+      Coordinates -10 -10
+      Mode 1
+      { Data
+      }
+      Preview ""
+      Comment ""
+    }
+  }
+  { Connections
+  }
+}
+
+AmbientColor 0.823529 0.976471 1
+AmbientIntensity 0.52
+DoubleSidedAreaLights 0
+EnableLensFlares 0
+EnableVolumetricLights 0
+NoiseReduction 1
+EnableMipMapping 1
+RadiosityType 1
+RadiosityInterpolated 1
+RadiosityTransparency 0
+RadiosityIntensity 1
+RadiosityTolerance 0.2928932
+RadiosityRays 100
+SecondaryBounceRays 50
+RadiosityMinPixelSpacing 3
+RadiosityMaxPixelSpacing 100
+RadiosityMultiplier 1
+RadiosityDirectionalRays 0
+RadiosityUseGradients 0
+RadiosityUseBehindTest 1
+BlurRadiosity 1
+ISMapSize 1024
+RadiosityFlags 0
+RadiosityCacheModulus 1
+RadiositySaveEachFrame 0
+RadiosityCacheFilePath M:Radiosity/radiosity.cache
+PixelFilterForceMT 0
+
+AddLight 20000000
+LightName Light
+ShowLight 1 -1 0.941176 0.376471 0.941176
+LightMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key -101.13491821289062 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 97.671157836914063 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key -67.740875244140625 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0.98436552286148082 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0.62831830978393555 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+IKInitCustomFrame 0
+GoalStrength 1
+IKFKBlending 0
+IKSoftMin 0.25
+IKSoftMax 0.75
+CtrlPosItemBlend 1
+CtrlRotItemBlend 1
+CtrlScaleItemBlend 1
+
+PathAlignLookAhead 0.033
+PathAlignMaxLookSteps 10
+PathAlignReliableDist 0.001
+PivotPosition 0 0 0
+PivotRotation 0 0 0
+SplineFlags 0
+SplineFit 0
+IKInitialState 0
+UseIKChainValues 1
+LightColor 0.996078 1 0.866667
+LightIntensity 1
+AffectCaustics 1
+LightType 2
+LightFalloffType 0
+LightConeAngle 30
+LightEdgeAngle 5
+LensFlare 0
+FlareIntensity 0.5
+FlareDissolve 0
+LensFlareFade 4
+LensFlareOptions 11
+FlareRingColor 0.3137 0.0784 0.0392
+FlareRingSize 0.22
+FlareRandStreakInt 0.03
+FlareRandStreakDens 50
+FlareRandStreakSharp 6
+ShadowType 1
+ShadowColor 0.305882 0.286275 0.372549
+Plugin LightHandler 1 SpotLight
+EndPlugin
+
+AddCamera 30000000
+CameraName Camera
+ShowCamera 1 -1 0.125490 0.627451 0.941176
+CameraMotion
+NumChannels 6
+Channel 0
+{ Envelope
+  1
+  Key -0.0023979693651199341 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 1.4391021728515625 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key -23.322551727294918 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key -0.090757116675376892 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+IKInitCustomFrame 0
+GoalStrength 1
+IKFKBlending 0
+IKSoftMin 0.25
+IKSoftMax 0.75
+CtrlPosItemBlend 1
+CtrlRotItemBlend 1
+CtrlScaleItemBlend 1
+
+PathAlignLookAhead 0.033
+PathAlignMaxLookSteps 10
+PathAlignReliableDist 0.001
+PivotPosition 0 0 0
+PivotRotation 0 0 0
+SplineFlags 0
+SplineFit 0
+IKInitialState 0
+UseIKChainValues 1
+ZoomFactor 3.2
+ZoomType 1
+ResolutionMultiplier 2.0
+FrameSize 1536 2048
+OverscanMode 0
+OverscanSize 0 0 0 0
+PixelAspect 1
+MotionBlur 0
+MotionBlurPasses 1
+ShutterEfficiency 1
+RollingShutter 0
+ShutterOpen 0
+Oversampling 0
+UndockPreview 0
+FieldRendering 0
+ApertureHeight 0.015
+EyeSeparation 0.07
+ConvergencePoint 1
+UseConvergence 0
+StereoTrackedEye 0
+StereoOpenGL 1
+ConvergenceToeIn 1
+DepthOfField 0
+FocalDistance 1
+LensFStop 4
+DiaphragmSides 0
+DiaphragmRotation 0
+AASamples 1
+Sampler 1
+AdaptiveThreshold 0.01
+MinimumSamples 1
+MaximumSamples 9
+Plugin CameraHandler 1 Perspective
+EndPlugin
+
+AddCamera 30000001
+CameraName CloseUpCAM
+ShowCamera 1 -1 0.125490 0.627451 0.941176
+CameraMotion
+NumChannels 6
+Channel 0
+{ Envelope
+  1
+  Key -0.19161882996559143 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 1.5693409442901611 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key -23.289957046508789 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0.0069818496704101563 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key -0.16755157709121704 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+IKInitCustomFrame 0
+GoalStrength 1
+IKFKBlending 0
+IKSoftMin 0.25
+IKSoftMax 0.75
+CtrlPosItemBlend 1
+CtrlRotItemBlend 1
+CtrlScaleItemBlend 1
+
+PathAlignLookAhead 0.033
+PathAlignMaxLookSteps 10
+PathAlignReliableDist 0.001
+PivotPosition 0 0 0
+PivotRotation 0 0 0
+SplineFlags 0
+SplineFit 0
+IKInitialState 0
+UseIKChainValues 1
+ZoomFactor 3.2
+ZoomType 1
+ResolutionMultiplier 1.0
+FrameSize 640 480
+OverscanMode 0
+OverscanSize 0 0 0 0
+PixelAspect 1
+MotionBlur 0
+MotionBlurPasses 1
+ShutterEfficiency 1
+RollingShutter 0
+ShutterOpen 0
+Oversampling 0
+UndockPreview 0
+FieldRendering 0
+ApertureHeight 0.015
+EyeSeparation 0.07
+ConvergencePoint 1
+UseConvergence 0
+StereoTrackedEye 0
+StereoOpenGL 1
+ConvergenceToeIn 1
+DepthOfField 0
+FocalDistance 1
+LensFStop 4
+DiaphragmSides 0
+DiaphragmRotation 0
+AASamples 1
+Sampler 0
+AdaptiveThreshold 0.01
+MinimumSamples 1
+MaximumSamples 9
+Plugin CameraHandler 1 Perspective
+EndPlugin
+
+Antialiasing 2
+AntiAliasingLevel -1
+ReconstructionFilter 1
+AdaptiveSampling 0
+
+UseBackgroundColor 0
+BackgroundColor 0 0 0
+SolidBackdrop 0
+BackdropColor 1 0.670588 0.309804
+ZenithColor 1 0.490196 0.4
+SkyColor 1 0.921569 0.607843
+GroundColor 0.8824 0.9177 1
+NadirColor 0.1216 0.0948 0.083
+SkySqueezeAmount 4.55
+GroundSqueezeAmount 6
+FogType 0
+FogMinDistance 0
+FogMaxDistance 1
+FogMinAmount 0
+FogMaxAmount 1
+FogColor 0.5098 0.5098 0.549
+BackdropFog 0
+CopyToPerspective 0
+VolumeClipDiscance 0.1
+DynamicRangeMin 0
+DynamicRangeLimit 1
+DitherIntensity 0
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 9
+DepthBufferAA 0
+RenderLines 1
+RenderInstances 1
+RayRecursionLimit 6
+RayPrecision 6
+RayCutoff 0.01
+ShadingSamples 1
+LightSamples 1
+DataOverlayLabel  
+SaveRGB 0
+SaveAlpha 0
+
+ViewConfiguration 11
+DefineView 0
+ViewType 9
+ViewLevel 5
+ViewAimpoint -0.1825164 0 35.36019
+ViewZoomFactor 1.840375
+ViewXRay 1
+ViewMBDofPreview 0
+ViewHeadlight 0
+DefineView 1
+ViewType 5
+ViewLevel 3
+CenterItem 1
+ViewAimpoint 0 8.284612 49.61151
+ViewZoomFactor 4.531539
+ViewXRay 1
+ViewMBDofPreview 0
+ViewHeadlight 0
+DefineView 2
+ViewType 1
+ViewLevel 5
+CenterItem 1
+ViewAimpoint 0 8.284612 49.61151
+ViewZoomFactor 0.3560126
+ViewXRay 1
+ViewMBDofPreview 0
+ViewHeadlight 0
+DefineView 3
+ViewType 7
+ViewLevel 5
+CenterItem 1
+ViewAimpoint 0 8.284612 49.61151
+ViewRotation 2.9722e-005 1.400007 0
+ViewZoomFactor 2.345406
+ViewXRay 1
+ViewMBDofPreview 0
+ViewHeadlight 0
+
+GridNumber 80
+GridSize 2
+CameraViewBG 0
+ShowMotionPath 1
+ShowFogRadius 0
+ShowFogEffect 0
+ShowFieldChart 0
+OverlayColor_fv 0 0 0
+MeshBackgroundGroup 1
+Plugin VirtualStudio 1 VirtualStudio
+{ Version
+  2
+  Active 1
+  LIVE 0
+  LIVE_FPS 30
+  Play 0
+  Arm 0
+  PunchIn 0
+  PunchOut 0
+}
+EndPlugin
+
+CurrentObject 3
+CurrentLight 0
+CurrentCamera 1
+GraphEditorData
+{ GraphEd_Favorites
+}
+{ GE_Expression_Lib
+  1
+}
+ImageEditorData
+NumberOfClips 20
+Clip 0
+{ ClipObject
+  "Pitch_Texture_00.png"
+  128
+  0
+}
+Clip 1
+{ ClipObject
+  "Stands_Line.png"
+  128
+  0
+}
+Clip 2
+{ ClipObject
+  "Pitch_Track.png"
+  128
+  0
+}
+Clip 3
+{ ClipObject
+  "Stands_Corner.png"
+  128
+  0
+}
+Clip 4
+{ ClipObject
+  "Stands_BackTop.png"
+  128
+  0
+}
+Clip 5
+{ ClipObject
+  "Girders.png"
+  128
+  0
+}
+Clip 6
+{ ClipObject
+  "Adbanner_02.png"
+  128
+  0
+}
+Clip 7
+{ ClipObject
+  "Adbanner_03.png"
+  128
+  0
+}
+Clip 8
+{ ClipObject
+  "Adbanner_01.png"
+  128
+  0
+}
+Clip 9
+{ ClipObject
+  "Adbanner_04.png"
+  128
+  0
+}
+Clip 10
+{ ClipObject
+  "Grandstand.png"
+  128
+  0
+}
+Clip 11
+{ ClipObject
+  "Ad_Panel.png"
+  128
+  0
+}
+Clip 12
+{ ClipObject
+  "PiratePete.png"
+  128
+  0
+}
+Clip 13
+{ ClipObject
+  "Bunny_Costume.png"
+  128
+  0
+}
+Clip 14
+{ ClipObject
+  "Male_00.png"
+  128
+  0
+}
+Clip 15
+{ ClipObject
+  "Male_01.png"
+  128
+  0
+}
+Clip 16
+{ ClipObject
+  "Male_02.png"
+  128
+  0
+}
+Clip 17
+{ ClipObject
+  "Male_03.png"
+  128
+  0
+}
+Clip 18
+{ ClipObject
+  "GoalNets.png"
+  128
+  0
+}
+Clip 19
+{ ClipObject
+  "TVScreen.png"
+  128
+  0
+}
+
+ContentDir M:Projects/CrossBar_Challenge/Project/CrossBar Project/Assets/Crossbar_Assets
